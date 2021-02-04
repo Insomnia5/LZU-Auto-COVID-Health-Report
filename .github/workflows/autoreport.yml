@@ -60,4 +60,4 @@ jobs:
           with:
             workflow: 'GitHub Actions LZU Auto COVID Health Report'
             token: ${{ secrets.GPATOKEN }}
-            inputs: '{ "delays": "30m" }'
+            inputs: '{ "delays": "10m" }'
